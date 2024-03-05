@@ -1,0 +1,1 @@
+package ex02;class ShareSum {    private int sum = 0;    public synchronized int getSum() {        return sum;    }    public synchronized void setSum(int sum) {        this.sum += sum;    }}
