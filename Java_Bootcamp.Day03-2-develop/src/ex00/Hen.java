@@ -1,1 +1,0 @@
-package ex00;class Hen implements Runnable {    private final int count;    Hen(int count) {        this.count = count;    }    @Override    public void run() {        for (int i = 0; i < count; i++) {            System.out.println("HEN");        }    }}
