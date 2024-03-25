@@ -1,0 +1,1 @@
+package edu.school21.spring.service.models;import lombok.*;import org.springframework.stereotype.Component;@Data@Getter@Setter@AllArgsConstructor@NoArgsConstructor@Componentpublic class User {    private Long id;    private String email;    private String password;    public User(long id, String email) {        this.id = id;        this.email = email;    }}

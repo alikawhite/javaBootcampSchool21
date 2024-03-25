@@ -1,0 +1,1 @@
+INSERT INTO SHOP.PRODUCT(IDENTIFIER, NAME, PRICE)VALUES (1, 'chocolate', 200),       (2, 'eggs', 100),       (3, 'bread', 50),       (4, 'butter', 100),       (5, 'cheese', 150);

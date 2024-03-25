@@ -1,0 +1,1 @@
+package ex00;public class Program {    public static void main(String[] args) {        int num = 198131;        int res = 0;        for (int i = 0; i < 6; ++i) {            res += num % 10;            num = num / 10;        }        System.out.println(res);    }}

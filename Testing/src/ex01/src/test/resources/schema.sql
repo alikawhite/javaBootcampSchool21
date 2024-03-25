@@ -1,0 +1,1 @@
+CREATE SCHEMA shop;CREATE TABLE IF NOT EXISTS shop.product(    identifier INTEGER PRIMARY KEY,    name       VARCHAR(50),    price      INTEGER);
